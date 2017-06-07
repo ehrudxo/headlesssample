@@ -1,0 +1,19 @@
+{
+  "name": "rosamia",
+  "version": "1.0.0",
+  "description": "rosamia start",
+  "main": "index.js",
+  "dependencies": {
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "rosamia",
+    "test"
+  ],
+  "author": "keen",
+  "license": "MIT"
+}
