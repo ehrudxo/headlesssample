@@ -1,9 +1,3 @@
----
-title: (test) node 환경에서 헤드리스 크롬과 selenium의 조합을 사용해 보자
-date: 2017-06-07 13:31:34
-tags: web test, test suite, headless browser
----
-
 최근에 headless chrome 이 나름 화제가 되어서 돌았는데 이 headless 라는 의미가 어떻게 쓰이는지 잘 모르는 사람들을 위해 이야기를 하고 넘어갈까 한다.
 
 ## headless browser
@@ -23,7 +17,7 @@ headless browser는 기본적으로 GUI 없는 웹 브라우저를 의미한다.
 셀레니엄은 태생 자체가 다르다고 보면 된다. 헤드리스 브라우저는 범용적인 목적에 따라 CLI환경에서 브라우저 환경을 에뮬레이션 하는 것이라고 하면 selenium은 브라우저 플러그인을 넣고 테스트를 실행시킵니다. 서버 사이드에서 테스트에 관련된 실행을 시킬 수 있는 리모트 컨트롤러가 존재하고 다양한 브라우저를 지원하기 위해 드라이버들을 제공하는데 webdriver 라고 불려진다. 이후 버전이 업데이트 되었다.  
 클라이언트 서버 구조로 서버 사이드와 RC(Remote Control)로 구성되어 있던 것을 webdriver와 결합하면서 현재의 selenium2가 된 것이다.
 
-![selenium1 + webdriver = selenium2](/images/seleniumhq.jpg)
+![selenium1 + webdriver = selenium2](http://keen.devpools.kr/images/seleniumhq.jpg)
 
 즉 CLI 툴로 사용할 수 있는 헤드리스 크롬의 경우는 다양한 브라우저를 테스트의 목적으로 사용해야 하는 범용 테스트 목적 보다는 다른 용도로 많이 사용될 것으로 보인다. ~~DDOS machine?~~
 
@@ -79,6 +73,6 @@ webdriverio
     .end();
 ```
 결과는 다음과 같다.
-![개발바보들의 타이틀을 긁어왔다](/images/headlessscraping.jpg)
+![개발바보들의 타이틀을 긁어왔다](http://keen.devpools.kr/images/headlessscraping.jpg)
 
 .
