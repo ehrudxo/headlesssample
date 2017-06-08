@@ -4,8 +4,8 @@
 
 headless browser는 기본적으로 GUI 없는 웹 브라우저를 의미한다.  
 
-> A headless browser is a web browser without a graphical user interface.  
-- 출처 : [What is a headless browser?](http://blog.arhg.net/2009/10/what-is-headless-browser.html)
+> "A headless browser is a web browser without a graphical user interface."  
+출처 : [What is a headless browser?](http://blog.arhg.net/2009/10/what-is-headless-browser.html)
 
 즉 CLI(Command Line interface)에서만 다루는 브라우저를 이야기 한다.  
 유명한 헤드리스 브라우저로는  phantomJS 가 있다.  
@@ -14,7 +14,7 @@ headless browser는 기본적으로 GUI 없는 웹 브라우저를 의미한다.
 나쁜 예로는 DDOS 공격을 하는데 사용되기도 하고, 자동화를 좋지 않은데에 쓰이기도 한다는 것이다.
 
 ## selenium은 어떻게 다른가
-셀레니엄은 태생 자체가 다르다고 보면 된다. 헤드리스 브라우저는 범용적인 목적에 따라 CLI환경에서 브라우저 환경을 에뮬레이션 하는 것이라고 하면 selenium은 브라우저 플러그인을 넣고 테스트를 실행시킵니다. 서버 사이드에서 테스트에 관련된 실행을 시킬 수 있는 리모트 컨트롤러가 존재하고 다양한 브라우저를 지원하기 위해 드라이버들을 제공하는데 webdriver 라고 불려진다. 이후 버전이 업데이트 되었다.  
+셀레니엄은 태생 자체가 다르다고 보면 된다. 헤드리스 브라우저는 범용적인 목적에 따라 CLI환경에서 브라우저 환경을 에뮬레이션 하는 것이라고 하면 selenium은 브라우저 플러그인을 넣고 테스트를 실행시킨다. 서버 사이드에서 테스트에 관련된 실행을 시킬 수 있는 리모트 컨트롤러가 존재하고 다양한 브라우저를 지원하기 위해 드라이버들을 제공하는데 webdriver 라고 불려진다. 이후 버전이 업데이트 되었다.  
 클라이언트 서버 구조로 서버 사이드와 RC(Remote Control)로 구성되어 있던 것을 webdriver와 결합하면서 현재의 selenium2가 된 것이다.
 
 ![selenium1 + webdriver = selenium2](http://keen.devpools.kr/images/seleniumhq.jpg)
